@@ -1,4 +1,5 @@
-using UnityEngine;
+ using System;
+ using UnityEngine;
 
 public class ObjectMovement : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class ObjectMovement : MonoBehaviour
     [SerializeField] private AudioEventDispatcher _audioEventDispatcher;
     [SerializeField] private AudioType _objectmovement;
     [SerializeField] private AudioType _destruction;
+    
+    public event Action Loose;
     public void Init(GameObject NewObject)
     {
         _objectfalling = NewObject;
@@ -42,6 +45,7 @@ public class ObjectMovement : MonoBehaviour
             Destroy(_objectfalling);
             _audioEventDispatcher.Playaudio(_destruction);
             _index = -1;
+            Loose?.Invoke();
         }
     }
 }

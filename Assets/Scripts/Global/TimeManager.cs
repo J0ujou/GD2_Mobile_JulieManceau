@@ -5,8 +5,20 @@ using UnityEngine;
 public class TimeManager : MonoBehaviour
 {
   [SerializeField] private float _timeStepDuration = 1.0f;
+  [SerializeField] PlayerCollect playerCollect;
+  [SerializeField] Spawner spawner;
 
   public event Action OnTimePassed;
+
+  private void OnEnable()
+  {
+    playerCollect.LevelUpDifficulty += FallSpeed;
+  }
+
+  private void OnDisable()
+  {
+    playerCollect.LevelUpDifficulty -= FallSpeed;
+  }
   
   IEnumerator SpendingTime()
   {
@@ -22,12 +34,17 @@ public class TimeManager : MonoBehaviour
     StartTime();
   }
 
+  public void FallSpeed()
+  {
+    _timeStepDuration -= 0.2f;
+    spawner.ReduceSpawnDelay();
+  }
   private void StartTime()
   {
     StartCoroutine(SpendingTime());
   }
 
-  private void StopTime()
+  public void StopTime()
   {
     StopCoroutine(SpendingTime());
   }

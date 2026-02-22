@@ -32,4 +32,9 @@ public class Spawner : MonoBehaviour
       _fallingLines[random()].Init(Instantiate(_ObjectToSpawn));
     }
   }
+
+  public void ReduceSpawnDelay()
+  {
+    _spawnDelayDuration= Mathf.Clamp(_spawnDelayDuration - 1, 1, 3);
+  }
 }
