@@ -7746,7 +7746,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77daffaf791f45c4db8f9b4aa2e65b8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaveGameSystem
-  playerDatas: {fileID: 0}
+  playerDatas: {fileID: 11400000, guid: f4fae01b677334547a844cfd9fa46af3, type: 2}
+  scorefinal: {fileID: 1863979998}
 --- !u!95 &1774805806
 Animator:
   serializedVersion: 7
@@ -9085,6 +9086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8256549571249149010, guid: 80c9971d964072c469629661d90e5638, type: 3}
+      propertyPath: _playerDatas
+      value: 
+      objectReference: {fileID: 11400000, guid: f4fae01b677334547a844cfd9fa46af3, type: 2}
     - target: {fileID: 8327068556320424191, guid: 80c9971d964072c469629661d90e5638, type: 3}
       propertyPath: 'm_transforms.Array.data[0]'
       value: 
