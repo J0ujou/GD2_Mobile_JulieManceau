@@ -124,7 +124,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8485770292559710524, guid: 80c9971d964072c469629661d90e5638, type: 3}
   m_PrefabInstance: {fileID: 4508637699431834738}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1382163601}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08a9667d8b9bc294282ba37475b9c86e, type: 3}
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8256549571249149010, guid: 80c9971d964072c469629661d90e5638, type: 3}
   m_PrefabInstance: {fileID: 4508637699431834738}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1382163601}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa6c2cf6fd6abfe4fbfcec2378315c14, type: 3}
@@ -330,7 +330,7 @@ Transform:
   m_GameObject: {fileID: 169037927}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.97000027, y: -1.97, z: 0}
+  m_LocalPosition: {x: 1.05, y: -1.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -494,7 +494,7 @@ Transform:
   m_GameObject: {fileID: 201763632}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0100002, y: -7.9199996, z: 0}
+  m_LocalPosition: {x: 1.05, y: -7.9199996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -703,7 +703,7 @@ Transform:
   m_GameObject: {fileID: 287011670}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9199991, y: -3.92, z: 0}
+  m_LocalPosition: {x: 0.95, y: -3.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -946,7 +946,7 @@ Transform:
   m_GameObject: {fileID: 333984762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.46, y: -7.16, z: 0}
+  m_LocalPosition: {x: 6.12, y: -3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1121,7 +1121,7 @@ Transform:
   m_GameObject: {fileID: 419364824}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8899994, y: -6.97, z: 0}
+  m_LocalPosition: {x: 0.95, y: -6.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1183,7 +1183,7 @@ Transform:
   m_GameObject: {fileID: 449326142}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9399996, y: -1.97, z: 0}
+  m_LocalPosition: {x: 0.95, y: -1.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1214,7 +1214,7 @@ Transform:
   m_GameObject: {fileID: 477291870}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.97999954, y: -7.9199996, z: 0}
+  m_LocalPosition: {x: 0.95, y: -7.9199996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1444,7 +1444,7 @@ Transform:
   m_GameObject: {fileID: 579268780}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.62, y: -7.17, z: 0}
+  m_LocalPosition: {x: 0.06, y: -3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1834,7 +1834,7 @@ Transform:
   m_GameObject: {fileID: 735825020}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.57, y: -7.16, z: 0}
+  m_LocalPosition: {x: -3, y: -3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4690,7 +4690,7 @@ Transform:
   m_GameObject: {fileID: 863314450}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9499998, y: -3.92, z: 0}
+  m_LocalPosition: {x: 1.05, y: -3.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4721,7 +4721,7 @@ Transform:
   m_GameObject: {fileID: 901221484}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.67495, y: 4.57745, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4741,7 +4741,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 915055234}
-  - component: {fileID: 915055233}
   - component: {fileID: 915055232}
   m_Layer: 0
   m_Name: FallLine3
@@ -4769,26 +4768,11 @@ MonoBehaviour:
   - {fileID: 662906090}
   - {fileID: 1014341264}
   - {fileID: 745894671}
-  _timeManager: {fileID: 915055233}
+  _timeManager: {fileID: 1508919956}
   _objectfalling: {fileID: 0}
   _audioEventDispatcher: {fileID: 11400000, guid: ae8d4a8d2ac4c48418146a2c3629decb, type: 2}
   _objectmovement: 1
   _destruction: 3
---- !u!114 &915055233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915055231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc2ac9f1b0d210545a0a0886beb50a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TimeManager
-  _timeStepDuration: 1
-  playerCollect: {fileID: 0}
-  spawner: {fileID: 0}
 --- !u!4 &915055234
 Transform:
   m_ObjectHideFlags: 0
@@ -5959,7 +5943,7 @@ Transform:
   m_GameObject: {fileID: 1173280494}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0199995, y: -5.9500003, z: 0}
+  m_LocalPosition: {x: 0.95, y: -5.9500003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5974,7 +5958,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1187897727}
-  - component: {fileID: 1187897726}
   - component: {fileID: 1187897725}
   m_Layer: 0
   m_Name: FallLine4
@@ -6002,26 +5985,11 @@ MonoBehaviour:
   - {fileID: 446359101}
   - {fileID: 1475665747}
   - {fileID: 201763633}
-  _timeManager: {fileID: 1187897726}
+  _timeManager: {fileID: 1508919956}
   _objectfalling: {fileID: 0}
   _audioEventDispatcher: {fileID: 11400000, guid: ae8d4a8d2ac4c48418146a2c3629decb, type: 2}
   _objectmovement: 1
   _destruction: 3
---- !u!114 &1187897726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187897724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc2ac9f1b0d210545a0a0886beb50a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TimeManager
-  _timeStepDuration: 1
-  playerCollect: {fileID: 0}
-  spawner: {fileID: 0}
 --- !u!4 &1187897727
 Transform:
   m_ObjectHideFlags: 0
@@ -6645,7 +6613,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1362573664}
-  - component: {fileID: 1362573663}
   - component: {fileID: 1362573662}
   m_Layer: 0
   m_Name: FallLine1
@@ -6673,26 +6640,11 @@ MonoBehaviour:
   - {fileID: 485457778}
   - {fileID: 1651968522}
   - {fileID: 536639586}
-  _timeManager: {fileID: 1362573663}
+  _timeManager: {fileID: 1508919956}
   _objectfalling: {fileID: 0}
   _audioEventDispatcher: {fileID: 11400000, guid: ae8d4a8d2ac4c48418146a2c3629decb, type: 2}
   _objectmovement: 1
   _destruction: 3
---- !u!114 &1362573663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362573661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc2ac9f1b0d210545a0a0886beb50a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TimeManager
-  _timeStepDuration: 1
-  playerCollect: {fileID: 0}
-  spawner: {fileID: 0}
 --- !u!4 &1362573664
 Transform:
   m_ObjectHideFlags: 0
@@ -7019,6 +6971,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1362573664}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1382163601 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7609367491422494478, guid: 80c9971d964072c469629661d90e5638, type: 3}
+  m_PrefabInstance: {fileID: 4508637699431834738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1382163609
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382163601}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1382914108
 GameObject:
   m_ObjectHideFlags: 0
@@ -7167,7 +7151,7 @@ Transform:
   m_GameObject: {fileID: 1402889752}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.54, y: -7.11, z: 0}
+  m_LocalPosition: {x: 3.05, y: -3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7441,7 +7425,7 @@ Transform:
   m_GameObject: {fileID: 1475665746}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9200001, y: -6.97, z: 0}
+  m_LocalPosition: {x: 1.05, y: -6.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7457,8 +7441,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1508919955}
   - component: {fileID: 1508919954}
-  - component: {fileID: 1508919953}
   - component: {fileID: 1508919952}
+  - component: {fileID: 1508919956}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -7478,31 +7462,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b6f1984506d7a499ad6b97e2aa6793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  _timeManager: {fileID: 1508919953}
+  _timeManager: {fileID: 1508919956}
   _fallingLines:
   - {fileID: 1362573662}
   - {fileID: 1838725201}
   - {fileID: 915055232}
   - {fileID: 1187897725}
   - {fileID: 2047198346}
-  _ObjectToSpawn: {fileID: 7318554549858424072, guid: 76cdea34326c5d34bac4b8fee7baa7d9, type: 3}
+  _ObjectToSpawn: {fileID: 7318554549858424072, guid: 039d361fe024c804aa9ed338edf3997f, type: 3}
   _spawnTimer: 0
-  _spawnDelayDuration: 3
---- !u!114 &1508919953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508919951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc2ac9f1b0d210545a0a0886beb50a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TimeManager
-  _timeStepDuration: 2
-  playerCollect: {fileID: 0}
-  spawner: {fileID: 0}
+  _spawnDelayDuration: 5
 --- !u!156049354 &1508919954
 Grid:
   m_ObjectHideFlags: 0
@@ -7533,6 +7502,22 @@ Transform:
   - {fileID: 1290195598}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1508919956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508919951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2ac9f1b0d210545a0a0886beb50a37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TimeManager
+  _timeStepDuration: 1
+  playerCollect: {fileID: 32805331}
+  spawner: {fileID: 1508919952}
+  uiPanel: {fileID: 1863979998}
 --- !u!1 &1559513090
 GameObject:
   m_ObjectHideFlags: 0
@@ -7881,7 +7866,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1838725203}
-  - component: {fileID: 1838725202}
   - component: {fileID: 1838725201}
   m_Layer: 0
   m_Name: FallLine2
@@ -7909,26 +7893,11 @@ MonoBehaviour:
   - {fileID: 2105611021}
   - {fileID: 1033240906}
   - {fileID: 1718834893}
-  _timeManager: {fileID: 1838725202}
+  _timeManager: {fileID: 1508919956}
   _objectfalling: {fileID: 0}
   _audioEventDispatcher: {fileID: 11400000, guid: ae8d4a8d2ac4c48418146a2c3629decb, type: 2}
   _objectmovement: 1
   _destruction: 3
---- !u!114 &1838725202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838725200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc2ac9f1b0d210545a0a0886beb50a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TimeManager
-  _timeStepDuration: 1
-  playerCollect: {fileID: 0}
-  spawner: {fileID: 0}
 --- !u!4 &1838725203
 Transform:
   m_ObjectHideFlags: 0
@@ -7983,8 +7952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be4f6ccd2b9944439e594e162f0454f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UI_Panel
-  objectMovement: {fileID: 0}
-  timeManager: {fileID: 1508919953}
+  timeManager: {fileID: 1508919956}
   loosePanel: {fileID: 305783794}
 --- !u!114 &1863979999
 MonoBehaviour:
@@ -8848,7 +8816,7 @@ Transform:
   m_GameObject: {fileID: 2038320414}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.68, y: -7.12, z: 0}
+  m_LocalPosition: {x: -5.99, y: -3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8863,7 +8831,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2047198348}
-  - component: {fileID: 2047198347}
   - component: {fileID: 2047198346}
   m_Layer: 0
   m_Name: FallLine5
@@ -8891,26 +8858,11 @@ MonoBehaviour:
   - {fileID: 1173280495}
   - {fileID: 419364825}
   - {fileID: 477291871}
-  _timeManager: {fileID: 2047198347}
+  _timeManager: {fileID: 1508919956}
   _objectfalling: {fileID: 0}
   _audioEventDispatcher: {fileID: 11400000, guid: ae8d4a8d2ac4c48418146a2c3629decb, type: 2}
   _objectmovement: 1
   _destruction: 3
---- !u!114 &2047198347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047198345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc2ac9f1b0d210545a0a0886beb50a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TimeManager
-  _timeStepDuration: 1
-  playerCollect: {fileID: 0}
-  spawner: {fileID: 0}
 --- !u!4 &2047198348
 Transform:
   m_ObjectHideFlags: 0
@@ -8957,7 +8909,7 @@ Transform:
   m_GameObject: {fileID: 2079068216}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.98, y: 0.03, z: 0}
+  m_LocalPosition: {x: 1.05, y: 0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9085,6 +9037,10 @@ PrefabInstance:
       propertyPath: scoreUI
       value: 
       objectReference: {fileID: 1863979999}
+    - target: {fileID: 1491836225817666492, guid: 80c9971d964072c469629661d90e5638, type: 3}
+      propertyPath: m_AutoTiling
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7112321038964523101, guid: 80c9971d964072c469629661d90e5638, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.06
@@ -9152,7 +9108,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7609367491422494478, guid: 80c9971d964072c469629661d90e5638, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1382163609}
   m_SourcePrefab: {fileID: 100100000, guid: 80c9971d964072c469629661d90e5638, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

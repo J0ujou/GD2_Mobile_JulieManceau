@@ -11,11 +11,15 @@ public class ObjectMovement : MonoBehaviour
     [SerializeField] private AudioType _objectmovement;
     [SerializeField] private AudioType _destruction;
     
-    public event Action Loose;
+    public static event Action Loose;
     public void Init(GameObject NewObject)
     {
-        _objectfalling = NewObject;
-        MoveObject();
+        if (_objectfalling == null)
+        {
+            _objectfalling = NewObject;
+            _index = -1;
+            MoveObject();
+        }
     }
 
     private void OnEnable()

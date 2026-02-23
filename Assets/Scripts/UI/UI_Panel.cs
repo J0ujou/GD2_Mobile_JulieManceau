@@ -3,23 +3,23 @@ using UnityEngine;
 
 public class UI_Panel : MonoBehaviour
 {
-  [SerializeField] ObjectMovement objectMovement;
   [SerializeField] TimeManager timeManager;
   public GameObject loosePanel;
 
+  public event Action Stop;
   private void OnEnable()
   {
-    objectMovement.Loose += ShowLoosePanel;
+    ObjectMovement.Loose += ShowLoosePanel;
   }
 
   private void OnDisable()
   {
-    objectMovement.Loose -= ShowLoosePanel;
+    ObjectMovement.Loose -= ShowLoosePanel;
   }
 
   public void ShowLoosePanel()
   {
     loosePanel.SetActive(true);
-    timeManager.StopTime();
+    Stop?.Invoke();
   }
 }

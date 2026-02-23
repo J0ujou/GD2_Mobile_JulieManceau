@@ -7,17 +7,21 @@ public class TimeManager : MonoBehaviour
   [SerializeField] private float _timeStepDuration = 1.0f;
   [SerializeField] PlayerCollect playerCollect;
   [SerializeField] Spawner spawner;
+  [SerializeField] UI_Panel uiPanel;
 
+  private Coroutine _timerCoroutine;
   public event Action OnTimePassed;
 
   private void OnEnable()
   {
     playerCollect.LevelUpDifficulty += FallSpeed;
+    uiPanel.Stop += StopTime;
   }
 
   private void OnDisable()
   {
     playerCollect.LevelUpDifficulty -= FallSpeed;
+    uiPanel.Stop -= StopTime;
   }
   
   IEnumerator SpendingTime()
@@ -36,16 +40,24 @@ public class TimeManager : MonoBehaviour
 
   public void FallSpeed()
   {
-    _timeStepDuration -= 0.2f;
+    //_timeStepDuration -= 0.2f;
     spawner.ReduceSpawnDelay();
   }
   private void StartTime()
   {
-    StartCoroutine(SpendingTime());
+    if (_timerCoroutine == null)
+    {
+      _timerCoroutine = StartCoroutine(SpendingTime());
+    }
   }
 
   public void StopTime()
   {
-    StopCoroutine(SpendingTime());
+    if (_timerCoroutine != null)
+    {
+      StopAllCoroutines();
+      _timerCoroutine = null;
+    }
+
   }
 }

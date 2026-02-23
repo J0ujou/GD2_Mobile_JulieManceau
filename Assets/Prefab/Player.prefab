@@ -196,8 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectBonus
   ObjectValue: 1
   playerCollect: {fileID: 8256549571249149010}
-  scoreUI: {fileID: 0}
-  objectFalling: {fileID: 7318554549858424072, guid: 76cdea34326c5d34bac4b8fee7baa7d9, type: 3}
+  ObjectFalling: {fileID: 0}
 --- !u!114 &8256549571249149010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +254,6 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 2.56, y: 2.56}
+  m_AutoTiling: 1
+  m_Size: {x: 2, y: 2.5}
   m_EdgeRadius: 0

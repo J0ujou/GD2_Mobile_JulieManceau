@@ -13,15 +13,18 @@ public class PlayerCollect : MonoBehaviour
 
   public void UpdateScore(int value)
   {
+    _scoreDatas.ScoreValue += value;
+    
     if (_scoreDatas.ScoreValue == LevelPoint - 1)
     {
       _scoreDatas.Level += 1;
       OnLevelUp.Invoke(_scoreDatas.Level);
-      LevelUpDifficulty.Invoke();
+      _scoreDatas.ScoreValue = 0;
+      LevelUpDifficulty?.Invoke();
+      OntargetCollected?.Invoke(_scoreDatas.ScoreValue);
     }
     else
     {
-      _scoreDatas.ScoreValue += value;
       OntargetCollected?.Invoke(_scoreDatas.ScoreValue);
     }
   }
