@@ -23,9 +23,9 @@ public class UI_Score : MonoBehaviour
 
     private void Start()
     {
-        UpdateLevel(1);
+        //UpdateLevel(1);
         UpdateScore(0);
-        _scoreData.Level =1;
+        //_scoreData.Level =1;
         _scoreData.ScoreValue = 0;
     }
 
