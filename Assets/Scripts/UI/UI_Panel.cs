@@ -7,6 +7,7 @@ public class UI_Panel : MonoBehaviour
   public GameObject loosePanel;
 
   public event Action Stop;
+  public event Action SaveScore;
   private void OnEnable()
   {
     ObjectMovement.Loose += ShowLoosePanel;
@@ -21,5 +22,12 @@ public class UI_Panel : MonoBehaviour
   {
     loosePanel.SetActive(true);
     Stop?.Invoke();
+    SaveScore?.Invoke();
+  }
+
+  public void ShowHighScore()
+  {
+    // si le score actuel est plus grand que l'autre alors highscore
+    // voir après pour faire un tableau
   }
 }
