@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\2\CharaBehaviour.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\EnigmeDatas.cs" />
+    <Compile Include="Assets\Scripts\2\GameScript.cs" />
     <Compile Include="Assets\Scripts\SaveController.cs" />
     <Compile Include="Assets\Scripts\Global\SaveGameSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />

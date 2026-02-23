@@ -487,6 +487,7 @@
 "Assets/Scripts/2/BarrierBehaviour.cs"
 "Assets/Scripts/2/BarrierSpawner.cs"
 "Assets/Scripts/2/CharaBehaviour.cs"
+"Assets/Scripts/2/GameScript.cs"
 "Assets/Scripts/Engine/EnigmeController.cs"
 "Assets/Scripts/EnigmeDatas.cs"
 "Assets/Scripts/Global/InputPlayerManagerCustom.cs"
