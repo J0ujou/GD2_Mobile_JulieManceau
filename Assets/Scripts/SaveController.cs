@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
@@ -8,8 +9,23 @@ public class PlayerDatas
     public string Name = "None";
     public int Score =0;
     public int Level = 1;
+    public List<HighscoreEntry> highscoresRNJ = new List<HighscoreEntry>();
+    public List<HighscoreEntry> highscoresGNW = new List<HighscoreEntry>();
+    public List<HighscoreEntry> highscoresSG = new List<HighscoreEntry>();
+
 }
 
+public class HighscoreEntry
+{
+    public string playerName = "None";
+    public int Score =0;
+
+    public HighscoreEntry(string name, int scoreValue)
+    {
+        playerName = name;
+        Score = scoreValue;
+    }
+}
 public class SaveController
 {
     public string GetPath()
