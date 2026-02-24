@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class CharaBehaviour : MonoBehaviour
 {
     public bool IsAlive = true;
     private bool IsGrounded = false;
@@ -10,6 +10,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     [SerializeField] private float _jumpHeight= 8f;
     [SerializeField] private float _rayLength = 1.0f;
     [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] private Animator charaAnimator;
 
     private void Start()
     {
@@ -23,6 +24,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         RaycastHit2D playerRaycast = Physics2D.Raycast(transform.position, Vector2.down, _rayLength, _groundLayer);
         IsGrounded = playerRaycast.collider != null;
+        charaAnimator.SetBool("StartedGame", true);
+        if (IsGrounded)
+        {
+            charaAnimator.SetBool("IsJumping", false);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -31,11 +37,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             Time.timeScale = 0.0f;
             IsAlive = false;
+            charaAnimator.SetBool("IsDead", true);
         }
     }
 
     public void Jump(InputAction.CallbackContext callbackContext)
     {
+        charaAnimator.SetBool("IsJumping", true);
         if (callbackContext.started && IsGrounded && IsAlive)
         {
             CharaRigidbody.linearVelocity = new Vector2(CharaRigidbody.linearVelocity.x, _jumpHeight);

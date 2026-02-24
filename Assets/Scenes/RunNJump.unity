@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 338636490}
   - component: {fileID: 338636491}
   - component: {fileID: 338636492}
+  - component: {fileID: 338636493}
   m_Layer: 0
   m_Name: CharaSprite
   m_TagString: Untagged
@@ -399,7 +400,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -462,11 +463,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   IsAlive: 1
   CharaRigidbody: {fileID: 338636490}
-  _jumpHeight: 8
+  _jumpHeight: 6
   _rayLength: 1
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  charaAnimator: {fileID: 338636493}
+--- !u!95 &338636493
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338636487}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 33998f07c8d0b814bae15087713c2f77, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &615067010
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +503,7 @@ GameObject:
   - component: {fileID: 615067012}
   - component: {fileID: 615067011}
   - component: {fileID: 615067014}
+  - component: {fileID: 615067015}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -604,6 +629,20 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &615067015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615067010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba6f2697dcb7c94d978c8a2f47104b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameScript
+  _charaBehaviour: {fileID: 338636492}
+  _scoreText: {fileID: 699769564}
 --- !u!1 &699769562
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,6 +891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1454788234}
+  - component: {fileID: 1454788235}
   m_Layer: 0
   m_Name: BarrierSpawner
   m_TagString: Untagged
@@ -874,6 +914,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1454788235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454788233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3756391f3cd3e6845a92799d6ab568f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarrierSpawner
+  _barrierObject: {fileID: 6665713879340211046, guid: 4714f3884ae87fc4784dbae5f21df40b, type: 3}
+  _maxSpawnInterval: 2
 --- !u!1 &1497832055
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class BarrierSpawner : MonoBehaviour
 
     private void Update()
     {
+        //_maxSpawnInterval= Random.Range(1, 4);
         timer += Time.deltaTime;
         if (timer >= _maxSpawnInterval)
         {

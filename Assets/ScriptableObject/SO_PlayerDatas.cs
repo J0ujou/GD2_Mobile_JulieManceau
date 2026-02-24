@@ -6,6 +6,7 @@ public class SO_PlayerDatas : ScriptableObject
     public string Name;
     public int Score;
     public int Level;
+    public int Score2;
     
     private SaveController saveSystem;
 
@@ -19,6 +20,7 @@ public class SO_PlayerDatas : ScriptableObject
         Name = datas.Name;
         Score = datas.Score;
         Level = datas.Level;
+        //Score2 = datas.Score2;
     }
     
 
@@ -31,6 +33,7 @@ public class SO_PlayerDatas : ScriptableObject
         datas.Name = Name;
         datas.Score = Score;
         datas.Level = Level;
+        //datas.Score2 = Score2;
         // j'envoie ca à la fonction de savesystem
         saveSystem.Save(datas);
     }
