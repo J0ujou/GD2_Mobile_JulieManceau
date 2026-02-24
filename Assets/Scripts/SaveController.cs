@@ -15,6 +15,7 @@ public class PlayerDatas
 
 }
 
+[System.Serializable] 
 public class HighscoreEntry
 {
     public string playerName = "None";

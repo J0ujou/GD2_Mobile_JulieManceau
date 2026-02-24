@@ -181,4 +181,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BarrierBehaviour
   _barrierMovementSpeed: 5
   _screenExit: -10
-  _barrierRigidbody: {fileID: 0}
+  _barrierRigidbody: {fileID: 4413830288210805351}

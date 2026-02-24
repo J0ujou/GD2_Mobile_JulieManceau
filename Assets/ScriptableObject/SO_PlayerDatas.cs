@@ -66,19 +66,20 @@ public class SO_PlayerDatas : ScriptableObject
             targetList.Add(newEntry);
             
             // Trier par score décroissant (du plus grand au plus petit)
-            targetList = targetList.OrderByDescending(entry => entry.Score).ToList();
+            targetList.Sort((a, b) => b.Score.CompareTo(a.Score));
             
             // Garder seulement le top 10
             if (targetList.Count > nbMaxHighscore)
             {
-                targetList = targetList.Take(nbMaxHighscore).ToList();
+                targetList.RemoveRange(nbMaxHighscore, targetList.Count - nbMaxHighscore);
             }
             
             // Réassigner la liste triée
-            SetHighscoreList(gameName, targetList);
+            //SetHighscoreList(gameName, targetList);
             
             // Sauvegarder automatiquement
             SaveDatas();
+            Debug.Log($"Highscore ajouté pour {gameName} : {playerName} - {scoreValue}. Total: {targetList.Count} entrées");
         }
     }
         
@@ -123,7 +124,7 @@ public class SO_PlayerDatas : ScriptableObject
             case "GameNWatch":
                 highscoresGNW = newList;
                 break;
-            case "Game3":
+            case "SuikaGame":
                 highscoresSG = newList;
                 break;
         }

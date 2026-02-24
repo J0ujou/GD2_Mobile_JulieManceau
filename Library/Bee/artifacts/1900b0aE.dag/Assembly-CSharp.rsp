@@ -501,6 +501,8 @@
 "Assets/Scripts/PlayerNamePanel.cs"
 "Assets/Scripts/SaveController.cs"
 "Assets/Scripts/Sound/AudioEventManager.cs"
+"Assets/Scripts/UI/HighscoreDisplayManager.cs"
+"Assets/Scripts/UI/HighScoreEntryUI.cs"
 "Assets/Scripts/UI/UI_Panel.cs"
 "Assets/Scripts/UI/UI_Score.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

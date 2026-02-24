@@ -11,6 +11,7 @@ public class CharaBehaviour : MonoBehaviour
     [SerializeField] private float _rayLength = 1.0f;
     [SerializeField] private LayerMask _groundLayer;
     [SerializeField] private Animator charaAnimator;
+    [SerializeField] private GameScript gameScript;
 
     private void Start()
     {
@@ -38,6 +39,7 @@ public class CharaBehaviour : MonoBehaviour
             Time.timeScale = 0.0f;
             IsAlive = false;
             charaAnimator.SetBool("IsDead", true);
+            gameScript.EndGame();
         }
     }
 
